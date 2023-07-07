@@ -1,0 +1,289 @@
+:root {
+    --primary-brand: #4D5AE5;
+    --pressed-state: #404BBF;
+    --dark: #2E2F42;
+    --text: #434455;
+    --subtle-text: #8E8F99;
+    --accent: #E7E9FC;
+    --light: #F4F4FD;
+    --hero-background: #2E2F42;
+    --white-background: #FFFFFF;
+
+}
+
+/**___________Повторяющее елементи____________ */
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+.link {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.list {
+    list-style: none;
+}
+
+
+/**____________header_________________*/
+.header {
+    background-color: var(--white-background);
+}
+
+/* .nav-menu {} */
+
+.logo {
+    color: var(--primary-brand);
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.17;
+    /* 21/18 */
+    letter-spacing: 0.03em;
+    /* 0.54/18 */
+    text-transform: uppercase;
+}
+
+.logo-accent {
+    color: var(--dark);
+}
+
+.nav-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+
+
+
+.informacion {
+    font-style: normal;
+}
+
+.contact {
+    color: var(--text);
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 24/16 */
+    letter-spacing: 0.02em;
+    /* 0.32/16 */
+}
+
+.link:hover,
+.link:focus {
+    color: var(--pressed-state);
+}
+
+
+/*?___________Body_________________________ */
+/* секция 1 */
+.hero-section {
+    background: var(--hero-background);
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.hero-button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+}
+
+
+
+/* ___________секция 2____________ */
+
+
+.feature {}
+
+.feature-item {}
+
+.feature-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.feature-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*____________секция 3___________*/
+
+.what-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+/* .what  {} */
+
+/* .what-img {} */
+
+/*____________секция 4  ___________*/
+
+.team-section {
+    background-color: #F4F4FD;
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    /* 0.72/36 */
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.team {
+    background-color: var(--white-background)
+}
+
+.team-item {
+    background-color: #FFFFFF;
+}
+
+.team-image {
+    text-align: center;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.team-role {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+
+/*?___________footer_________________________ */
+.ftr {
+    background-color: #2e2f42;
+}
+
+.ftr-nav-menu {}
+
+.logo-down {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+}
+
+.logo-down-accent {
+    color: #f4f4fd;
+}
+
+
+.ftr-text {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+    }
+/* !____________Poptfolio____________________ */
+
+.Portfoliofon {
+    background-color: var(--white-background);
+}
+
+/*?___________кнопки на портфолио_________________________ */
+
+
+
+.nav-button-all {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color: #F4F4FD;
+}
+
+.nav-button-all:hover,
+.nav-button-all:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
+/*?___________ список 9 штук_________________________ */
+
+.exemplo-list {
+    list-style: none;
+
+}
+
+/* .team-image link {} */
+
+.exemplo-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.exemplo-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
