@@ -4,17 +4,14 @@
     box-sizing: border-box;
 }
 
-.page-container {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
 
-}
 
 .container {
-    max-width: 1158px;
+    width: 100%;
+    max-width: 1160px;
     padding: 0 16px;
     margin: 0 auto;
+    outline: 3px solid red;
 
 }
 
@@ -35,9 +32,6 @@ main {
 
 }
 
-
-
-/**___________Повторяющее елементи____________ */
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -74,12 +68,35 @@ ol {
     padding-left: 0;
 }
 
-/**____________header_________________*/
-.header {
+img {
+    display: block;
+}
+
+
+
+/**_____///////////////////////header////////////////////////////////______*/
+
+header {
+    padding-top: 24px;
+    padding-bottom: 24px;
     background-color: var(--white-background);
 }
 
-/* .nav-menu {} */
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.heder-logo {
+    padding: 24px 1169px 24px 156px;
+}
 
 .logo {
     color: var(--primary-brand);
@@ -98,16 +115,20 @@ ol {
     color: var(--dark);
 }
 
+.nav-menu-list {
+    display: flex;
+    gap: 24px;
+}
+
+.heder-nav {}
+
 .nav-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-
 }
-
-
 
 .informacion {
     font-style: normal;
@@ -124,7 +145,8 @@ ol {
     /* 24/16 */
     letter-spacing: 0.02em;
     /* 0.32/16 */
-    align-self: flex-end;
+    display: flex;
+    gap: 40px;
 }
 
 .link:hover,
@@ -133,10 +155,22 @@ ol {
 }
 
 
-/*?___________Body_________________________ */
-/* секция 1 */
+
+
+/*?__///////////////_Body_////////////////////////////////////////////////////__ */
+/* -/////////////////////секция 1//////////////////////---------- */
 .hero-section {
     background: var(--hero-background);
+
+}
+
+.hero-container {
+    height: 600px;
+    padding-top: 188px;
+    padding-bottom: 292px;
+
+
+
 }
 
 .hero-title {
@@ -145,19 +179,28 @@ ol {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    margin: 0 auto;
+
 }
 
 .hero-button {
+    color: #ffffff;
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
     cursor: pointer;
 }
 
+.button {}
+
+.hero-button {
+    padding: 16px 32px;
+    border-radius: 4px;
+    margin-top: 48px;
+}
 
 .hero-button:hover,
 .hero-button:focus {
@@ -165,13 +208,24 @@ ol {
 }
 
 
+/* _//////////////////////////////////////секция 2///////////////////__ */
 
-/* ___________секция 2____________ */
+.section2 {
+    background: #FFF;
+}
 
+.solutions-container {
+    padding: 156px;
+}
 
-.feature {}
+.solutions-list {
+    gap: 24px;
+    display: flex;
+}
 
-.feature-item {}
+.feature-item {
+    width: calc((100% - 72px*3)/3);
+}
 
 .feature-subtitle {
     font-weight: 500;
@@ -179,6 +233,7 @@ ol {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .feature-text {
@@ -188,7 +243,27 @@ ol {
     color: #434455;
 }
 
-/*____________секция 3___________*/
+.visually:hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/*__////////////////////////////////////////секция 3////////////////////////////////////////__*/
+.what {
+    background: #FFF;
+}
+
+.what-container {
+    align-items: center;
+}
 
 .what-title {
     font-size: 36px;
@@ -197,16 +272,32 @@ ol {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
+
+
+
 }
 
-/* .what  {} */
+.what-list {
+    display: flex;
 
-/* .what-img {} */
 
-/*____________секция 4  ___________*/
+}
+
+.what-img {
+    width: calc((100% - 48px*2)/2);
+    padding-bottom: 120px;
+}
+
+
+/*__//////////////////секция 4 ///////////////////////////////___*/
 
 .team-section {
     background-color: #F4F4FD;
+}
+
+.team-container {
+    height: 732px;
 }
 
 .team-title {
@@ -217,20 +308,36 @@ ol {
     /* 0.72/36 */
     text-transform: capitalize;
     color: #2e2f42;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
 
 .team {
-    background-color: var(--white-background)
+    background-color: var(--white-background) gap: 24px;
+    display: flex;
+    gap: 24px;
 }
 
 .team-item {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+padding: ;
+width: calc((100% - 72px*3)/3);
 }
+
 
 .team-image {
     text-align: center;
+    height: 260px;
+    
 }
 
+.team-subt{
+    text-align: center;
+    padding: 8px;
+}
 .team-name {
     font-weight: 500;
     font-size: 20px;
@@ -239,6 +346,9 @@ ol {
     color: #2e2f42;
     text-align: center;
     text-transform: capitalize;
+  margin-top: 32px;
+    
+  
 }
 
 .team-role {
@@ -246,10 +356,32 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-
+    margin-bottom: 32px; 
 }
 
-/*?___________footer_________________________ */
+
+/*?_//////////////////////////////_footer_//////////////////////////////_____ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .ftr {
     background-color: #2e2f42;
 }
