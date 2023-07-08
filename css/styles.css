@@ -1,3 +1,27 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 16px;
+    margin: 0 auto;
+
+}
+
+main {
+    flex-grow: 1;
+}
+
 :root {
     --primary-brand: #4D5AE5;
     --pressed-state: #404BBF;
@@ -10,6 +34,8 @@
     --white-background: #FFFFFF;
 
 }
+
+
 
 /**___________Повторяющее елементи____________ */
 body {
@@ -30,6 +56,23 @@ ul {
     list-style: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
 
 /**____________header_________________*/
 .header {
@@ -81,6 +124,7 @@ ul {
     /* 24/16 */
     letter-spacing: 0.02em;
     /* 0.32/16 */
+    align-self: flex-end;
 }
 
 .link:hover,
@@ -236,7 +280,8 @@ ul {
     line-height: 1.5;
     color: #f4f4fd;
     letter-spacing: 0.02em;
-    }
+}
+
 /* !____________Poptfolio____________________ */
 
 .Portfoliofon {
@@ -264,14 +309,20 @@ ul {
     cursor: pointer;
 }
 
+
+
 /*?___________ список 9 штук_________________________ */
 
-.exemplo-list {
+.exemplo .list {
     list-style: none;
 
 }
 
-/* .team-image link {} */
+.exemplo .item {
+    width: calc((100% - 48px) / 3);
+}
+
+
 
 .exemplo-title {
     font-weight: 500;
