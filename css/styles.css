@@ -223,7 +223,7 @@ header {
 
 /* _//////////////////////////////////////секция 2///////////////////__ */
 
-.section2 {
+.section-solutions {
     background: #FFF;
     padding: 120px 0;
 }
@@ -422,7 +422,7 @@ header {
 }
 
 /* !_____////////////Poptfolio///////////////________ */
-.ex {
+.exemplo-section {
     background-color: var(--white-background);
     padding-top: 96px; padding-bottom: 120px;
 }
