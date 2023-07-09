@@ -483,19 +483,20 @@ header {
 
 .exemplo-image {
     margin-bottom: 32px;
+    padding: 32px 16px;
    
 }
 
 .exemplo-subt {
     display: flex;
-    padding: 32px 16px
+    padding: 32px 16px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 8px;
+    margin-bottom: 8px;
     align-self: stretch;
     border: 1px solid #e7e9fc; 
-    border-top: none;
+    
     
 
 }
