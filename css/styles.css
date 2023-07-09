@@ -474,9 +474,8 @@ header {
 .item {
     border: 1px solid var(--cornflower, #E7E9FC);
   padding-bottom: 32px;
-  width: 360px;
   margin-bottom: 132px;
-  
+  width: calc((100% - 48px) / 3);
 
  
 }
@@ -495,7 +494,8 @@ header {
     align-items: flex-start;
     margin-bottom: 8px;
     align-self: stretch;
-    border: 1px solid #e7e9fc; 
+    border: 1px solid #e7e9fc;
+    border-top: none;
     
     
 
@@ -507,6 +507,7 @@ header {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .exemplo-text {
