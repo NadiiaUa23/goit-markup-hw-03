@@ -198,14 +198,18 @@ header {
 
 .button {}
 
+
+/* какая красивая кнопочка)):) */
 .hero-button {
     display: block;
+    min-width: 169px;
     margin: 0 auto;
     padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
     border-radius: 4px;
-    
+    height: 56px;
+    border: none;
 
 }
 
@@ -298,10 +302,11 @@ header {
 
 .team-section {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team-container {
-    height: 732px;
+    
 }
 
 .team-title {
@@ -313,7 +318,7 @@ header {
     text-transform: capitalize;
     color: #2e2f42;
     padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px; 
 }
 
 .team {
@@ -339,6 +344,7 @@ header {
 
 .team-subt {
     text-align: center;
+    padding: 32px 16px;
 
 }
 
@@ -368,12 +374,12 @@ header {
 .ftr {
     background-color: #2e2f42;
     margin: 0 auto;
+    padding: 100px 0;
 }
 
 .ftr-container {
-    height: 312px;
-    padding-left: 100px;
-    padding-top: 100px;
+
+ 
 }
 
 
@@ -478,6 +484,7 @@ header {
     justify-content: center;
     align-items: flex-start;
     align-self: stretch;
+    border: 1px solid #e7e9fc;
 }
 
 .exemplo-title {
@@ -487,6 +494,7 @@ header {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    
 }
 
 .exemplo-text {
