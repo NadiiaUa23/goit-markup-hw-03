@@ -167,7 +167,7 @@ header {
 
 .hero-container {
    margin: auto;
-   padding-left: ;
+  
 
 }
 
@@ -485,6 +485,7 @@ header {
     align-items: flex-start;
     align-self: stretch;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .exemplo-title {
