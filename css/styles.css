@@ -11,7 +11,7 @@
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-   
+
 
 }
 
@@ -88,8 +88,8 @@ header {
 
 .nav-menu {
     display: flex;
-    align-items: center; 
-   
+    align-items: center;
+
 }
 
 .heder-logo {
@@ -166,7 +166,9 @@ header {
 }
 
 .hero-container {
-   
+   margin: auto;
+   padding-left: ;
+
 }
 
 .hero-title {
@@ -176,8 +178,10 @@ header {
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
-   margin-left: auto;
-   margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+
 }
 
 .hero-button {
@@ -189,21 +193,20 @@ header {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+
 }
 
-.button {
-    
-}
+.button {}
 
 .hero-button {
-    padding: 16px 32px;
-    border-radius: 4px;
-   
     display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-   
+    margin: 0 auto;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    
+
 }
 
 .hero-button:hover,
@@ -219,9 +222,7 @@ header {
     padding: 120px 0;
 }
 
-.solutions-container {
-   
-}
+.solutions-container {}
 
 .solutions-list {
     gap: 24px;
@@ -259,7 +260,7 @@ header {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+}
 
 /*__////////////////////////////////////////секция 3////////////////////////////////////////__*/
 .what {
@@ -289,7 +290,7 @@ header {
 
 .what-img {
     width: calc((100% - 48px)/3);
-    padding-bottom: 120px;
+
 }
 
 
@@ -297,9 +298,6 @@ header {
 
 .team-section {
     background-color: #F4F4FD;
-    padding: 120px 0;
-    margin-bottom: 72px;
-
 }
 
 .team-container {
@@ -315,14 +313,15 @@ header {
     text-transform: capitalize;
     color: #2e2f42;
     padding-top: 120px;
-    margin-bottom: 72px;
+    padding-bottom: 72px;
 }
 
 .team {
-    background-color: #F4F4FD;;
+    background-color: #F4F4FD;
+    ;
     gap: 24px;
     display: flex;
-    gap: 24px;
+
 }
 
 .team-item {
@@ -330,7 +329,7 @@ header {
     border-radius: 0px 0px 4px 4px;
     background: var(--white, #FFF);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
- 
+
 }
 
 
@@ -340,8 +339,7 @@ header {
 
 .team-subt {
     text-align: center;
-    padding: 8px;
-    padding: 32px 16px
+
 }
 
 .team-name {
@@ -368,13 +366,12 @@ header {
 /*?_//////////////////////////////_footer_//////////////////////////////_____ */
 
 .ftr {
-    background-color: #2e2f42;  
-    padding: 100px 0;
+    background-color: #2e2f42;
     margin: 0 auto;
 }
 
 .ftr-container {
-  height: 312px;
+    height: 312px;
     padding-left: 100px;
     padding-top: 100px;
 }
@@ -416,20 +413,20 @@ header {
 /* !_____////////////Poptfolio///////////////________ */
 .exemplo-section {
     background-color: var(--white-background);
-    padding-top: 96px; padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 
-.exemplo-container {
-}
+.exemplo-container {}
 
 /*?___________кнопки на портфолио_________________________ */
 
 .nav-button {
-    margin-left: 427px;
+
     margin-bottom: 72px;
     display: flex;
-    gap: 24px;  
-    justify-content: center; 
+    gap: 24px;
+    justify-content: center;
 }
 
 .nav-button-all {
@@ -457,25 +454,21 @@ header {
 .exemplo {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px; 
-    width: calc((100% - 48px) / 3);
-    
+    gap: 48px 24px;
+    padding-bottom: 120px;
 }
 
 .item {
-    border: 1px solid var(--cornflower, #E7E9FC);
-  padding-bottom: 32px;
-  margin-bottom: 132px;
-  width: calc((100% - 48px) / 3);
-
- 
+    width: calc((100% - 48px) / 3);
+    border: 1px solid #E7E9FC;
+    border-top: none;
 }
 
 .exemplo-image {
     margin-bottom: 32px;
-    padding: 32px 16px;
-   
+    width: 360px;
+    height: 300px;
+
 }
 
 .exemplo-subt {
@@ -484,13 +477,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: 8px;
     align-self: stretch;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    
-    
-
 }
 
 .exemplo-title {
